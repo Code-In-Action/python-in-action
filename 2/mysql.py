@@ -2,6 +2,7 @@
 # -*- coding: UTF-8 -*-
 # 将 0001 题生成的 200 个激活码（或者优惠券）保存到 MySQL 关系型数据库中。
 import uuid
+# pymysql的用法与MySQLdb完全相同, MySQQLdb 不支持 python3.5 用 pymysql 代替
 import pymysql
 pymysql.install_as_MySQLdb()
 
