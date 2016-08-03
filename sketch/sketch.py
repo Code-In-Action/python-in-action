@@ -12,9 +12,6 @@ try:
                 man.append(line_spoken)
             elif role == 'Other Man':
                 other.append(line_spoken)
-            # print(role, end='')
-            # print('said:',end='')
-            # print(line_spoken,end='')
         except ValueError:
             pass
     data.close()
