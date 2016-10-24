@@ -25,6 +25,13 @@ julie = get_coach_data('julie.txt')
 mikey = get_coach_data('mikey.txt')
 sarah = get_coach_data('sarah.txt')
 
+sarah = get_coach_data('sarah2.txt')
+# (sarah_name, sarah_dob) = sarah.pop(0), sarah.pop(0)
+# print(sarah_name + "s fasttest times are:" + str(sorted(set([sanitize(t) for t in sarah]))[0:3]))
+
+# sarah_data = {}
+
+
 print(sorted(set([sanitize(t) for t in james]))[0:3])
 print(sorted(set([sanitize(t) for t in julie]))[0:3])
 print(sorted(set([sanitize(t) for t in mikey]))[0:3])
